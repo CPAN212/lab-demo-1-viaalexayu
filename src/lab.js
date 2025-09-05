@@ -3,7 +3,8 @@
 // Input: [1, 2, 3, 4]
 // Output: [4, 3, 2, 1]
 function reverseArray(arr) {
-  // Write you solution here
+  reverseArray = arr.reverse();
+  return reverseArray;
 }
 
 // Write a function that removes duplicate numbers from an array and returns a new array with only unique values.
@@ -11,7 +12,8 @@ function reverseArray(arr) {
 // Input: [1, 2, 2, 3, 4, 4, 5]
 // Output: [1, 2, 3, 4, 5]
 function removeDuplicates(arr) {
-  // Write you solution here
+  removeDuplicates = [...new Set(arr)];
+  return removeDuplicates;
 }
 
 // Write a function that sorts an array of numbers in ascending order (smallest to largest).
@@ -19,7 +21,8 @@ function removeDuplicates(arr) {
 // Input: [5, 2, 9, 1, 5, 6]
 // Output: [1, 2, 5, 5, 6, 9]
 function sortArray(arr) {
-  // Write you solution here
+  sortArray = arr.sort();
+  return sortArray;
 }
 
 // You have a synchronous function that returns a greeting message with your name.
@@ -29,7 +32,7 @@ function syncGreet(name) {
 }
 
 function asyncGreet(name) {
-  // Write you solution here
+  return new Promise(resolve => syncGreet(name));
 }
 
 module.exports = {

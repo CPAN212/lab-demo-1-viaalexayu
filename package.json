@@ -1,0 +1,23 @@
+{
+  "name": "lab-demo-1-viaalexayu",
+  "version": "1.0.0",
+  "description": "1. **Initialize the project**",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/lab.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPAN212/lab-demo-1-viaalexayu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CPAN212/lab-demo-1-viaalexayu/issues"
+  },
+  "homepage": "https://github.com/CPAN212/lab-demo-1-viaalexayu#readme",
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}
