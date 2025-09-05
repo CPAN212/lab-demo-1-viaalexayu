@@ -32,7 +32,9 @@ function syncGreet(name) {
 }
 
 function asyncGreet(name) {
-  return new Promise(resolve => syncGreet(name));
+  return new Promise(resolve => {
+    resolve(syncGreet(name));
+});
 }
 
 module.exports = {
